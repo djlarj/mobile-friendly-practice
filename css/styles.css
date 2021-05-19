@@ -1,3 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.topOfWave{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(62, 210, 243, 1);
+    margin-bottom: -4px;
+}
+.wave {
+    background-image: url(../img/wave.svg);
+    display: inline-block;
+    width: 100%;
+    height: 420px;
+    background-repeat: repeat-x;
+    margin-top: 0;
+}
 h1 {
-    color: #00f
+    text-align: center;
+    color: #FFF;
+    font-family: sans-serif;
+}
+h4 {
+    color: #009999
+}
+.section01 {
+    text-align: left;
+    margin-left: 130px;
+    margin-right: 150px;
+}
+.section02 {
+    text-align: right;
+    margin-left: 150px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+}
+footer {
+    text-align: center;
+    color: #FFF;
+    background-color: #003333;
+    width: 100%;
+    height: 100px;
+}
+footer p {
+    line-height: 100px;
 }
