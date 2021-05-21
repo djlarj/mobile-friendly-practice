@@ -22,6 +22,21 @@ h1 {
     color: #FFF;
     font-family: sans-serif;
 }
+@media (max-width: 1024px) {
+    h1 {
+        color:crimson
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        color:blueviolet
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        color:blue
+    }
+}
 h4 {
     color: #009999
 }
